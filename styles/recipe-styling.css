@@ -1,6 +1,29 @@
+/* html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+} */
+
+* {
+    outline: 1px solid red;
+}
 .title {
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
     color: brown;
+}
+
+img {
+
+    border: 10px solid;
+    border-top-color: rgb(224, 211, 169);
+    border-bottom-color: rgb(131, 85, 64);
+    border-left-color: rgb(214, 190, 155);
+    border-right-color: rgb(145, 108, 78);
+    
 }
