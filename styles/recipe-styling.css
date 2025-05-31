@@ -12,6 +12,10 @@ html {
     outline: 1px solid red;
 } */
 
+body {
+    background-color: antiquewhite;
+}
+
 .title {
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -41,10 +45,29 @@ img {
     border-bottom-color: rgb(131, 85, 64);
     border-left-color: rgb(214, 190, 155);
     border-right-color: rgb(145, 108, 78);
+    border-style: groove;
     
+}
+
+h3,
+p,
+ul,
+ol {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+p,
+ul,
+ol {
+    color: rgb(85, 23, 23);
 }
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
-    
+    background-color: brown;
+    color: beige;
+    padding: 10px 20px;
+    border: 5px groove brown;
 }
